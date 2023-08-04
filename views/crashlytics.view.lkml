@@ -1,6 +1,8 @@
 view: crashlytics {
   sql_table_name: `@{SCHEMA_NAME}.@{APP_NAME}_{{ "@{PLATFORM}" | replace: ".", "_" }}`;;
 
+  # ecat-5065e.firebase_crashlytics.com_copia_ecatalogue_ANDROID
+
   ### FOR URL ####
 
   dimension: app_ {
